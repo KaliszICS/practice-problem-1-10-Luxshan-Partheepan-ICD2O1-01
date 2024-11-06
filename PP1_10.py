@@ -1,18 +1,20 @@
 
 import math
 def q1(): 
-  
   num = input("Input a number: ")
-  print(math.isqrt(int(num)))
+  math = math(float(num))  
+    print(f"{math:.1f}") 
+ 
 
 
 
 
 
 def q2(): 
-  
   idea = input("Input a number: ")
-  print(math.sqrt(float(idea)))
+  moremath = math.sqrt(float(idea))  
+  print(f"{int(moremath)}")
+ 
   
 
 
